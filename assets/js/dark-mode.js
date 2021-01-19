@@ -2,6 +2,19 @@
 
 $(document).ready(function() {
 
+	// function setThemeFromCookie() {
+	// 	// Check if the cookie is set 
+	// 	if (typeof Cookies.get('mode') !== "undefined" ) {
+	// 		$('body').addClass("dark-mode");
+	// 		$('#darkmode').attr('checked', true); // toggle change
+	// 		console.log('Cookie: dark mode' );
+	// 	} else {
+	// 		$('body').removeClass("dark-mode");
+	// 		$('#darkmode').attr('checked', false); // toggle change
+	// 		console.log('Cookie: light mode' );
+	// 	}
+	// }
+	
 	function setThemeFromCookie() {
 		// Check if the cookie is set 
 		if (typeof Cookies.get('mode') == "undefined" ) {
@@ -14,19 +27,6 @@ $(document).ready(function() {
 			console.log('Cookie: light mode' );
 		}
 	}
-
-	// function setThemeFromCookie() {
-	// 	// Check if the cookie is set 
-	// 	if (typeof Cookies.get('mode') == "undefined" ) {
-	// 		$('body').addClass("dark-mode");
-	// 		$('#darkmode').attr('checked', true); // toggle change
-	// 		console.log('Cookie: dark mode' );
-	// 	} else {
-	// 		$('body').removeClass("dark-mode");
-	// 		$('#darkmode').attr('checked', false); // toggle change
-	// 		console.log('Cookie: light mode' );
-	// 	}
-	// }
 	
 	setThemeFromCookie();
 	
