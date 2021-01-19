@@ -27,7 +27,7 @@ $(document).ready(function() {
 	// 	}
 	// }
 	
-	setThemeFromCookie();
+
 	
 	$('#darkmode').on('change', function(e){
 
@@ -43,6 +43,8 @@ $(document).ready(function() {
 		}
 
 	});
+
+	setThemeFromCookie();
 	
 	
 	
